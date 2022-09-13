@@ -25,7 +25,7 @@
     function DisplayHomePage() {
         console.log("Home Page");
         $("#AboutUsButton").on("click", () => {
-            location.href = "/about";
+            location.href = "https://github.com/Mndfd/HerokuLiveSite";
         });
       
     }
