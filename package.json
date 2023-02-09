@@ -1,7 +1,7 @@
 {
-  "name": "porfolio",
+  "name": "porfolio-site",
   "version": "1.0.0",
-  "description": "demo project for ice12",
+  "description": "Portfolio site for myself",
   "main": "server.js",
   "author": "Onur Ozkanca",
   "license": "MIT",
