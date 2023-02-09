@@ -82,8 +82,11 @@ router.post('/register', function (req, res, next) {
     });
 });
 router.get('/logout', function (req, res, next) {
-    req.logOut();
+     req.logout(function(err) {
+    if (err) { return next(err); }
     res.redirect('/login');
+  });
+
 });
 router.get('/contact-list', index_1.AuthGuard, function (req, res, next) {
     contact_1.default.find(function (err, contactList) {

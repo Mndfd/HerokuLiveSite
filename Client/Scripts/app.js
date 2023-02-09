@@ -24,8 +24,11 @@
     }
     function DisplayHomePage() {
         console.log("Home Page");
-        $("#AboutUsButton").on("click", () => {
+        $("#GithubButton").on("click", () => {
             location.href = "https://github.com/Mndfd?tab=repositories";
+        });
+        $("#LinkedinButton").on("click", () => {
+            location.href = "https://www.linkedin.com/in/onur-ozkanca-48563b1b7/";
         });
       
     }
